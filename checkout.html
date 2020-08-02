@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Checkout</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/c8508c6e99.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="checkout.css">
+<script type="checkout.js"></script>
+</head>
+<body>
+<hr>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Products</li>
+  </ol>
+</nav>
+<hr>
+<div class='container'>
+  <div class='window'>
+    <div class='order-info'>
+      <div class='order-info-content'>
+        <h2>Order Summary</h2>
+                <div class='line'></div>
+        <table class='order-table'>
+          <tbody>
+            <tr>
+              <td><img src='https://www.cyberpowerpc.com/images/cs/PBET2018/onyxia/01_400.png' class='full-width'></img>
+              </td>
+              <td>
+                <br> <span class='thin'></span>
+                <br> OBSIDIAN<br> <span class='thin small'> Quantity : 1<br><br></span>
+              </td>
+
+            </tr>
+            <tr>
+              <td>
+                <div class='price'>RM 2899</div>
+              </td>
+            </tr>
+          </tbody>
+
+        </table>
+    
+        </table>
+      
+        <div class='line'></div>
+        <div class='total'>
+          <span style='float:left;'>
+            
+            <div class='thin dense'>Delivery</div>
+            TOTAL
+          </span>
+          <span style='float:right; text-align:right;'>
+           
+            <div class='thin dense'>RM 5.00</div>
+            RM 2905
+          </span>
+        </div>
+</div>
+</div>
+        <div class='credit-info'>
+          <div class='credit-info-content'>
+            <table class='half-input-table'>
+              <tr><td>Please select your card: </td><td><div class='dropdown' id='card-dropdown'><div class='dropdown-btn' id='current-card'>Visa</div>
+                <div class='dropdown-select'>
+                <ul>
+                  <li>Master Card</li>
+                  <li>American Express</li>
+                  </ul></div>
+                </div>
+               </td></tr>
+            </table>
+            <img src='https://dl.dropboxusercontent.com/s/ubamyu6mzov5c80/visa_logo%20%281%29.png' height='80' class='credit-card-image' id='credit-card-image'></img>
+            Card Number
+            <input class='input-field'></input>
+            Card Holder
+            <input class='input-field'></input>
+            <table class='half-input-table'>
+              <tr>
+                <td> Expires
+                  <input class='input-field'></input>
+                </td>
+                <td>CVC
+                  <input class='input-field'></input>
+                </td>
+              </tr>
+            </table>
+            <button class='pay-btn'>Checkout</button>
+
+          </div>
+
+        </div>
+      </div>
+</div>
+</body>
+</html>
